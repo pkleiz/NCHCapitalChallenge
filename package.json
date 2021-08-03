@@ -1,0 +1,22 @@
+{
+  "name": "desafionchcapital",
+  "version": "1.0.0",
+  "description": "NCH Capital's Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "react.js",
+    "MERN",
+    "Express",
+    "MongoDB",
+    "Fullstack coder"
+  ],
+  "author": "Pedro Kleiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
