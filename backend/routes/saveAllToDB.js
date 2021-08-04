@@ -76,7 +76,6 @@ router.post("/resume", async (req, res) => {
   }
 });
 
-console.log(auxiliars.wallet.length);
 router.post("/wallet", async (req, res) => {
   for (let i = 0; i < auxiliars.wallet.length; i++) {
     let saveWallet = new Wallet({
