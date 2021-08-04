@@ -1,2 +1,0 @@
-# NCHCapitalChallenge
- Challenge
