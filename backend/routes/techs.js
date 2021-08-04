@@ -52,6 +52,10 @@ router.get("/", (req, res) => {
       description:
         "biblioteca util para criar links friendly na barra de navegação ",
     },
+    {
+      tech: "heroku",
+      description: "deploy da aplicação tanto front quanto back",
+    },
   ];
 
   res.json({

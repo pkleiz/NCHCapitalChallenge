@@ -1,5 +1,6 @@
 const express = require("express");
 const api = require("./backend/routes");
+const saveAllToDB = require("./backend/routes/saveAllToDB");
 const app = express();
 
 require("dotenv").config();
@@ -15,6 +16,8 @@ app.get("/", (req, res) => {
 
 //middleware
 app.use("/api", api);
+
+app.use("/savealltodb", saveAllToDB);
 
 const PORT = process.env.PORT;
 app.listen(PORT);

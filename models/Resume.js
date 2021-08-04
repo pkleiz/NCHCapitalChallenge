@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const resumeSchema = new Schema({
-  found: String,
+  fund: String,
   rentabilityMonth: Number,
   rentabilityYear: Number,
   rentabilityITD: Number,

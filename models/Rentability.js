@@ -4,8 +4,8 @@ const { Schema } = mongoose;
 
 const rentabilitySchema = new Schema({
   date: Date,
-  NCHMaracanaFia: number,
-  IBX100: number,
+  NCHMaracanaFia: Number,
+  IBX100: Number,
 });
 
 module.exports = mongoose.model("rentability", rentabilitySchema);
