@@ -8,11 +8,13 @@ require("./backend/db/mongoConnection");
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.json({
-    success: true,
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("frontend/build"));
+  const path = require("path");
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
   });
-});
+}
 
 //middleware
 app.use("/api", api);
