@@ -56,6 +56,29 @@ router.get("/", (req, res) => {
       tech: "heroku",
       description: "deploy da aplicação tanto front quanto back",
     },
+    {
+      tech: "concurrently",
+      description:
+        "como backend e frontend são servidores diferentes, para evitar roda-los em dois terminais, essa biblioteca faz com que só seja necessário um comando para ambos",
+    },
+    {
+      tech: "http-proxy-middleware",
+      description:
+        "utilizado para que o frontend consiga se conectar ao backend para que assim os dados possam ser passados",
+    },
+    {
+      tech: "react-google-charts",
+      description: "utilizado para plotagem de gráficos de diversos tipos",
+    },
+    {
+      tech: "components",
+      description:
+        "Basicamente serve para reaproveitar trechos de código separados em componentes que podem ser chamados de maneira prática",
+    },
+    {
+      tech: "Styled Components",
+      description: "utilizado para estilizar os components",
+    },
   ];
 
   res.json({
