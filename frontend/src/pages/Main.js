@@ -46,7 +46,6 @@ const Main = () => {
             <h2>Gráfico DrawDown</h2>
             <h3>
               Todas as{" "}
-              <a href="https://desafionch.herokuapp.com/api/techs">
                 tecnologias
               </a>{" "}
               utilizadas nesse desenvolvimento foram documentadas com uma breve
