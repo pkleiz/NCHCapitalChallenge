@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing:border-box;
     }
     body{
+        background:#ffffff;
         overflow-x:hidden;
         text-decoration: none;
     }
@@ -25,11 +26,15 @@ const GlobalStyle = createGlobalStyle`
         }
     }
     h2{
-        font-weight:lighter;
+        font-weight:300;
         font-size:4rem;
+        color:#446084;
+        margin-left:20px;
     }
     h3{
-        color:white
+        font-weight:lighter;
+        font-size:2rem;
+        margin-left:30px;
     }
     a{
         font-size:1.1.rem
@@ -40,8 +45,8 @@ const GlobalStyle = createGlobalStyle`
     }
     p{
         padding:3rem 0rem;
-        color: #ccc;
-        font-size: 1.4rem;
+        color: #416cd5;
+        font-size: 2.4rem;
         line-height:150%;
     }
 `;

@@ -23,8 +23,8 @@ const AreaChart = () => {
   return (
     <div>
       <Chart
-        width={"600px"}
-        height={"300px"}
+        width={"800px"}
+        height={"500px"}
         chartType="AreaChart"
         loader={<div>NCH Capital</div>}
         data={setAreaChart(drawDown)}

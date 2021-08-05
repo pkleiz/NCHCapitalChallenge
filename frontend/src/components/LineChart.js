@@ -21,7 +21,7 @@ const LineChart = () => {
   return (
     <div>
       <Chart
-        width={"600px"}
+        width={"800px"}
         height={"400px"}
         chartType="LineChart"
         loader={<div>NCH Capital</div>}

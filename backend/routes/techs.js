@@ -79,6 +79,11 @@ router.get("/", (req, res) => {
       tech: "Styled Components",
       description: "utilizado para estilizar os components",
     },
+    {
+      tech: "react-router-dom",
+      description:
+        "usado para criação de links (como se fosse a tag 'a' do html)",
+    },
   ];
 
   res.json({

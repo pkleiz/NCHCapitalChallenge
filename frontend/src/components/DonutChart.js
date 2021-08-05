@@ -33,14 +33,12 @@ const setDonutChart = (objectWallet) => {
   return walletFormatted;
 };
 
-console.log(setDonutChart(wallet));
-
 const DonutChart = () => {
   return (
     <div>
       <Chart
-        width={"600px"}
-        height={"500px"}
+        width={"800px"}
+        height={"600px"}
         chartType="PieChart"
         loader={<div>NCH Capital</div>}
         data={setDonutChart(wallet)}
