@@ -45,11 +45,8 @@ const Main = () => {
           <div>
             <h2>Gráfico DrawDown</h2>
             <h3>
-              Todas as{" "}
-                tecnologias
-              </a>{" "}
-              utilizadas nesse desenvolvimento foram documentadas com uma breve
-              descrição, o código está disponível no{" "}
+              Todas as tecnologias utilizadas nesse desenvolvimento foram
+              documentadas com uma breve descrição, o código está disponível no
               <span>
                 <a href="https://github.com/pkleiz/NCHCapitalChallenge">
                   github{" "}
